@@ -1,0 +1,10 @@
+Some of the reasons vulnerabilities exist in the EG include the lack of security
+like executable exploit mitigations, the presence of vendor backdoors, continued 
+use of 1990’s network interface cards, and the inability to easily patch/update 
+the systems.  Because a lot of these vulnerabilities are documented, off the 
+shelf repositories of known weaknesses and exploitation models/packages are 
+available to assist hackers in attacking systems.  The availability of these 
+tools increases the chance for attack.  A report published May 2013, by the 
+U.S. House of Representatives [1], suggests that in the future, threats against 
+CPS are more likely than physical damage from detonation of an 
+Electromagnetic Pulse (EMP) device.
