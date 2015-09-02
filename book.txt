@@ -8,3 +8,9 @@ tools increases the chance for attack.  A report published May 2013, by the
 U.S. House of Representatives [1], suggests that in the future, threats against 
 CPS are more likely than physical damage from detonation of an 
 Electromagnetic Pulse (EMP) device.
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working directory clean
+C:\Users\Rebecca\Documents\GitHub\OracleC [master]>
