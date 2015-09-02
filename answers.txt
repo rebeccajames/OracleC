@@ -1,6 +1,5 @@
 (a) How many commits have been done to the repository?  [git log]
-	rebeccajames/Oracle = 8 commits
-	optimus9p/Oracle = 6 commits
+	10 commits
 
 	
 (b) When was the file .gitignore modified last?  [git log --follow .gitignore]
