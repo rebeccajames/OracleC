@@ -1,3 +1,6 @@
+Name: Rebecca James
+CS Username: james
+
 Welcome.
 
 You have sucessfully obtained a copy of the contents in the oracle repository.
