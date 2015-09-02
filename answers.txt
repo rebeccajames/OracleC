@@ -36,6 +36,7 @@
 
 (g) What command would you use to see the commits whose commit message contains
     the word "transaction"?
+	git grep transaction
 	
 
 (h) What command would you use to see the commits made by "Lauren" between 01/05/2014 
