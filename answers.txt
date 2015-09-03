@@ -7,18 +7,12 @@
 	
 	
 (c) List the files, which were in the repository on 08/21/2015 at 11:00PM  [git log --stat]
-	.classpath
-	.gitattributes
-	.gitignore
-	.project
-	README.txt.txt
-	HardwoodSeller.java
-	WoodItem.java
+	no files
 	
 
 (d) How many times was each of the files inside the src folder modified? [git log --follow "filename"]
-	WoodItem.java = 2
-	HardwoodSeller.java = 1
+	WoodItem.cpp = 2
+	HardwoodSellerC.cpp = 1
 
 
 (e) What is the difference between git log and git status?
