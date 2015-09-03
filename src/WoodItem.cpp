@@ -3,25 +3,79 @@
  *
  *  Created on: Aug 24, 2015
  *      Author: USER
+ *  Edited on: Sept 2, 2015
+ * 		Editor: Rebecca James
  */
 
 #include "WoodItem.h"
 /*
  * Empty constructor
  */
-WoodItem::WoodItem() {
+WoodItem::WoodItem() 
+{
 	type = "";
 	baseDeliveryTime = 0.0;
 	price = 0.0;
 }
 
 /*
- * Method to initialize a tic tac toe game
- * Initializes board and turn
+ * Constructor with parameters
  */
-WoodItem::WoodItem(std::string woodType, double deliveryTime, double itemPrice) {
+WoodItem::WoodItem(string woodType, double deliveryTime, double itemPrice) 
+{
 	type = woodType;
 	baseDeliveryTime = deliveryTime;
 	price = itemPrice;
 }
 
+
+
+string WoodItem::GetType()
+{
+	return type;
+}
+
+void WoodItem::SetWoodItem(string woodType)
+{
+	type = woodType;
+	if (type == "Cherry") 
+	{
+		baseDeliveryTime = 2.5;
+		price = 5.95;
+	}
+	if (type == "Curly Maple")
+	{
+		baseDeliveryTime = 1.5;
+		price = 6.00;
+	}
+	if (type == "Genuine Mahogany")
+	{
+		baseDeliveryTime = 3;
+		price = 9.60;
+	}
+	if (type == "Wenge")
+	{
+		baseDeliveryTime = 5;
+		price = 22.35;
+	}
+	if (type == "White Oak")
+	{
+		baseDeliveryTime = 2.3;
+		price = 6.70;
+	}
+	if (type == "Sawdust")
+	{
+		baseDeliveryTime = 1;
+		price = 1.5;
+	}
+}
+
+double WoodItem::GetBaseDeliveryTime()
+{
+	return baseDeliveryTime;
+}
+
+double WoodItem::GetPrice()
+{
+	return price;
+}

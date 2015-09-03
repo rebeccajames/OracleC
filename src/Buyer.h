@@ -13,26 +13,26 @@
 #include <fstream>
 #include <sstream>
 
-#ifndef WOODITEM_H_
-#define WOODITEM_H_
+#ifndef BUYER_H_
+#define BUYER_H_
 
 using namespace std;
-
-class WoodItem {
+;
+class Buyer {
 
 
 private:
-	string type;
-	double baseDeliveryTime;
-	double price;
+	string name;
+	string address;
+	string date;
 
 public:
 	// Member functions declaration
-	WoodItem();
-	WoodItem(std::string woodType, double deliveryTime, double itemPrice);
-	string GetType();
-	double GetBaseDeliveryTime();
-	double GetPrice();
+	Buyer();
+	Buyer(string buyerName, string buyerAddress, string buyerDate); 
+	string GetName();
+	string GetAddress();
+	string GetDate();
 	
 };
 
