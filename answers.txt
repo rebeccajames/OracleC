@@ -3,7 +3,7 @@
 
 	
 (b) When was the file .gitignore modified last?  [git log --follow .gitignore]
-	Thu Aug 20 18:05:41 2015
+	Mon Aug 24 12:19:51 2015
 	
 	
 (c) List the files, which were in the repository on 08/21/2015 at 11:00PM  [git log --stat]
@@ -11,7 +11,7 @@
 	
 
 (d) How many times was each of the files inside the src folder modified? [git log --follow "filename"]
-	WoodItem.cpp = 2
+	WoodItem.cpp = 1
 	HardwoodSellerC.cpp = 1
 
 
