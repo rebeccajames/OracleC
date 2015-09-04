@@ -28,13 +28,6 @@ WoodItem::WoodItem(string woodType, double deliveryTime, double itemPrice)
 	price = itemPrice;
 }
 
-
-
-string WoodItem::GetType()
-{
-	return type;
-}
-
 void WoodItem::SetWoodItem(string woodType)
 {
 	type = woodType;
@@ -68,6 +61,11 @@ void WoodItem::SetWoodItem(string woodType)
 		baseDeliveryTime = 1;
 		price = 1.5;
 	}
+}
+
+string WoodItem::GetType()
+{
+	return type;
 }
 
 double WoodItem::GetBaseDeliveryTime()
