@@ -20,7 +20,6 @@ using namespace std;
 ;
 class Buyer {
 
-
 private:
 	string name;
 	string address;
@@ -36,4 +35,4 @@ public:
 	
 };
 
-#endif /* WOODITEM_H_ */
+#endif /* BUYER_H_ */
